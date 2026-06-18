@@ -1,12 +1,3 @@
 spring:
   application:
     name: video-streaming-app
-  datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/video_streaming}
-    username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:postgres}
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: false
