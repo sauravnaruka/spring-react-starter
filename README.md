@@ -1,23 +1,37 @@
-# video-streaming-app
+# spring-react-starter
 
-React + Spring Boot video streaming application.
+Fullstack starter template: Spring Boot 4.1.0 + React 19 + Vite.
+
+## Quick start
+
+Clone the repo, then run the init script to rename the project to your own:
+
+```bash
+./init.sh --name my-app --package io.github.yourname
+```
+
+Or run it interactively (prompts for name and package):
+
+```bash
+./init.sh
+```
+
+This rewrites package names, class names, and project identifiers throughout the codebase, reorganizes the Java directory structure, and reinitializes git with an initial commit.
 
 ## Prerequisites
 
 - Java 25
 - Maven (or use `./mvnw`)
 - Node.js + npm
-- PostgreSQL
 
 ## Setup
 
-1. Clone the repo
-2. Configure database in `backend/src/main/resources/application.yaml`
-3. Install frontend dependencies and configure git hooks:
-   ```bash
-   make install
-   make setup
-   ```
+After running `./init.sh`, dependencies and git hooks are configured automatically. If you need to redo it manually:
+
+```bash
+make install
+make setup
+```
 
 ## Local Development
 

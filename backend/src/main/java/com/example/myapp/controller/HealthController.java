@@ -1,4 +1,4 @@
-package io.github.sauravnaruka.videostreamingapp.controller;
+package com.example.myapp.controller;
 
 import java.util.Map;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,7 +1,7 @@
 FRONTEND_DIR=frontend
 BACKEND_DIR=backend
 
-IMAGE_NAME=video-streaming-app
+IMAGE_NAME=my-app
 
 .PHONY: dev frontend backend build clean install test test-frontend test-backend setup format format-frontend format-backend docker-build docker-run
 
